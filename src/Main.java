@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задание 1");
@@ -10,22 +12,7 @@ public class Main {
         System.out.println();
         // Задание 2
         System.out.println("Задание 2");
-        fullName = fullName.replace("v", "V");
-        fullName = fullName.replace("a", "A");
-        fullName = fullName.replace("n", "N");
-        fullName = fullName.replace("o", "O");
-        fullName = fullName.replace("v", "V");
-        fullName = fullName.replace("v", "V");
-        fullName = fullName.replace("a", "A");
-        fullName = fullName.replace("n", "N");
-        fullName = fullName.replace("v", "V");
-        fullName = fullName.replace("a", "A");
-        fullName = fullName.replace("n", "N");
-        fullName = fullName.replace("o", "O");
-        fullName = fullName.replace("v", "V");
-        fullName = fullName.replace("i", "I");
-        fullName = fullName.replace("c", "C");
-        fullName = fullName.replace("h", "H");
+        fullName = fullName.toUpperCase();
         System.out.println("Данные ФИО сотрудника для заполнения отчёта-" + fullName);
         System.out.println();
 
